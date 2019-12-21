@@ -1,0 +1,5 @@
+require_relative "stock_segments/version"
+require_relative "stock_segments/cli"
+require_relative "stock_segments/scraper"
+require_relative "stock_segments/segment"
+require_relative "stock_segments/stock"
