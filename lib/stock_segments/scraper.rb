@@ -5,7 +5,6 @@ class SegmentScraper
 attr_accessor :site, :doc, :sector, :sector_perc
 
   def initialize
-    #nokigiri------
     @site = "https://markets.money.cnn.com/Marketsdata/Sectors"
     @doc = Nokogiri::HTML(open(site))
     @sector = doc.css("div#sectorPerformanceList").css("ul.nav.nav-pills.nav-stacked").css('li')

@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://markets.money.cnn.com/Marketsdata/Sectors"
-    spec.metadata["changelog_uri"] = "Thttps://markets.money.cnn.com/Marketsdata/Sectors"
+    spec.metadata["changelog_uri"] = "https://markets.money.cnn.com/Marketsdata/Sectors"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
